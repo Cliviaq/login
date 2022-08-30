@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/Spass"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="password"
+        android:autofillHints="password"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/SEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="emailAddress"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Login"
+        app:backgroundTint="#D81B60" />
+
+    <TextView
+        android:id="@+id/redirect2"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:gravity="center_horizontal"
+        android:text="Dont have an account"
+        android:textColor="#5E35B1"
+        android:textColorHint="#8E24AA"
+        android:textSize="20sp" />
+</LinearLayout>
